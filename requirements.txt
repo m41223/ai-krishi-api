@@ -1,5 +1,0 @@
-ultralytics
-tensorflow>=2.14.0
-numpy
-Pillow
-flask
