@@ -1,0 +1,13 @@
+# Requirements file ko update karein
+requirements = """ultralytics
+tensorflow-cpu>=2.14.0
+numpy
+Pillow
+flask
+gunicorn
+"""
+
+with open('/kaggle/working/requirements.txt', 'w') as f:
+    f.write(requirements)
+
+print("✅ requirements.txt update ho gayi hai! Isme 'gunicorn' add kar diya gaya hai.")
